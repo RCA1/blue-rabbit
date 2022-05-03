@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -12,23 +10,29 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## DEMO LINK: https://bluerabbitchallenge.netlify.app/
 
-To learn more about Next.js, take a look at the following resources:
+In the next few years I plan to be highly proficient with React and other frameworks, so I used a full stack React framework called Next.JS to create this Blue Rabbit Code Challenge since it has been my most recently used framework.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I created the API endpoints to send GET and POST requests to the MongoDB database.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The challenges I came across during this project was implementing the local image file uploader. I decided to go with letting the user upload an image using an image URL instead due to the time, but I am definitely interested in implementing it on my own time to learn more about it.
 
-## Deploy on Vercel
+## API ENDPOINTS
+https://bluerabbitchallenge.netlify.app//api/hello is an api endpoint which introduces my name, returning {"message":"Hello, my name is Rayvin Amador"}.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://bluerabbitchallenge.netlify.app/api/people - API Endpoint with all names and images.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width="371" alt="Screen Shot 2022-05-03 at 5 57 10 PM" src="https://user-images.githubusercontent.com/51034651/166586307-c2b9e79a-6214-461a-bc86-7557b967c3da.png">
+
+<img width="520" alt="Screen Shot 2022-05-03 at 5 57 19 PM" src="https://user-images.githubusercontent.com/51034651/166586311-93d2a630-869a-4120-bc31-c27b5710271b.png">
+
+<img width="410" alt="Screen Shot 2022-05-03 at 5 59 05 PM" src="https://user-images.githubusercontent.com/51034651/166586441-53e5cc37-c7e9-4cdf-9419-5885d20ec2d3.png">
+
+<img width="581" alt="Screen Shot 2022-05-03 at 5 58 27 PM" src="https://user-images.githubusercontent.com/51034651/166586445-3577c060-d23b-4d87-a5a5-6bbb7084c2ec.png">
+
+<img width="1034" alt="Screen Shot 2022-05-03 at 5 59 59 PM" src="https://user-images.githubusercontent.com/51034651/166586542-225837f3-3fde-4246-a60f-e29854c128e8.png">
+
