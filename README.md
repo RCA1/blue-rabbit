@@ -21,6 +21,12 @@ I created the API endpoints to send GET and POST requests to the MongoDB databas
 
 The challenges I came across during this project was implementing the local image file uploader. I decided to go with letting the user upload an image using an image URL instead due to the time, but I am definitely interested in implementing it on my own time to learn more about it.
 
+Copy Image Address & Paste to Image URL input box
+
+<img width="251" alt="Screen Shot 2022-05-03 at 8 41 14 PM" src="https://user-images.githubusercontent.com/51034651/166612812-61ce9e4c-bd8e-42a6-b7e8-3dbb835495b2.png">
+
+
+
 ## API ENDPOINTS
 https://bluerabbitchallenge.netlify.app//api/hello is an api endpoint which introduces my name, returning {"message":"Hello, my name is Rayvin Amador"}.
 
